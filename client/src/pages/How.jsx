@@ -119,10 +119,13 @@ export default function TabsRender() {
               </summary>
               <p className='px-4 py-6 pt-0 ml-4 -mt-4 text-primary'>
                 No, SAGI and SAGICAM are two different and separate databases,
-                the first one gather people living in the United States who are
+                the first one gathers people living in the United States who are
                 willing to be helping with others families&apos; funeral
-                expenses knowing that if something happen to them their family
-                will receive the same help from others members.
+                expenses knowing that if something happens to them their
+                families will receive the same help from others members.
+                <br /> SAGICAM in the other hand, gathers people living in
+                cameroon who are willing to participate in a SAGIlike program,
+                but would probably be sponsored by people living in the US.
               </p>
             </details>
             <details className='w-full border rounded-lg'>
@@ -142,7 +145,7 @@ export default function TabsRender() {
                 Is there any registration fee to become a member.
               </summary>
               <p className='px-4 py-6 pt-0 ml-4 -mt-4 text-primary'>
-                Id depends on the sponsor&apos;s membership with SAGI. If the
+                It depends on the sponsor&apos;s membership with SAGI. If the
                 sponsor is a SAGI member, the registration fee for any of his
                 family member is $5, but if the sponsor isn&apos;t a SAGI
                 member, his family member&apos;s registration will cost $10.
@@ -157,7 +160,7 @@ export default function TabsRender() {
               </summary>
               <p className='px-4 py-6 pt-0 ml-4 -mt-4 text-primary'>
                 SAGICAM is set up by the same people who set up SAGI, and is run
-                the same way. Moreover, a SAGI member who whish to relocate to
+                the same way. Moreover, a SAGI member who whishes to relocate to
                 Cameroon and who do not have a 10 years membership with SAGI can
                 register for free with SAGICAM.
               </p>
