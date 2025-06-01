@@ -27,7 +27,9 @@ export default function About2() {
               className='h-80 dark:bg-gray-500 aspect-video  '
             />
             <div className='flex flex-col justify-center flex-1 p-6 bg-base-200'>
-              <h3 className='text-3xl font-bold'>SAGICAM GIVE PEACE OF MINE</h3>
+              <h3 className='text-3xl font-bold'>
+                SAGICAM GIVES PEACE OF MIND
+              </h3>
               <p className='my-6 '>
                 Sponsoring my loved ones in SAGICAM reassures me that by doing
                 my part every month by helping other, the whole SAGICAM
