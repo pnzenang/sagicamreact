@@ -60,7 +60,7 @@ const Register = () => {
 
         <FormInput2
           type='text'
-          label='pick your 4-digit alphanumeric code'
+          label='pick your 4-letter code'
           name='associationCode'
         />
         <FormInputs type='text' label='street address' name='streetAddress' />

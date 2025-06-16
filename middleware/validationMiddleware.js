@@ -108,6 +108,7 @@ export const validateRegisterInput = withValidationErrors([
     .withMessage('association code is required')
     .isLength({ min: 4, max: 4 })
     .withMessage('association code should have 4 letters')
+    .isAlpha('Code must not contain number')
     .custom(async (associationCode) => {
       const user = await User.findOne({ associationCode });
       if (user) {
