@@ -99,7 +99,7 @@ export const validateRegisterInput = withValidationErrors([
     .custom(async (email) => {
       const user = await User.findOne({ email });
       if (user) {
-        throw new BadRequestError('email already exists');
+        throw new BadRequestError('email already exists, choose another email');
       }
     }),
   body('phoneNumber').notEmpty().withMessage('phone number required'),
@@ -108,7 +108,8 @@ export const validateRegisterInput = withValidationErrors([
     .withMessage('association code is required')
     .isLength({ min: 4, max: 4 })
     .withMessage('association code should have 4 letters')
-    .isAlpha('Code must not contain number')
+    .isAlpha()
+    .withMessage('Code must only contain letters')
     .custom(async (associationCode) => {
       const user = await User.findOne({ associationCode });
       if (user) {
