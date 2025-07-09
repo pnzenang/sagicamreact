@@ -49,7 +49,7 @@ const Register = () => {
           <FormInputs type='text' label='Sponsor first name' name='firstName' />
           <FormInputs
             type='text'
-            label='middle and last names'
+            label='last and middle names'
             name='lastAndMiddleNames'
           />
         </div>
