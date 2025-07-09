@@ -37,7 +37,7 @@ const AddMembers = () => {
         className='card w-full lg:w-full px-8 pb-20 pt-10 bg-base-100 shadow-lg flex flex-col gap-y-4 border-t-4  border-primary '
       >
         <h4 className='text-start text-3xl font-bold my-8 capitalize '>
-          add members
+          add Loved ones
         </h4>
         <div className='grid  lg:grid-cols-2 2xl:grid-cols-3 gap-4 '>
           <FormInput2 type='text' label='Member first names' name='firstName' />
