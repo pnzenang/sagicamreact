@@ -38,7 +38,7 @@ const Tabs = () => {
                 Step 2
               </span>
               <span className='text-xl font-bold md:text-2xl'>
-                MEMBERS ARE VESTED
+                LOVED ONES ARE VESTED
               </span>
               <span className='mt-4 '>
                 After 90 days of waiting period the member becomes vested and
@@ -74,7 +74,7 @@ const Tabs = () => {
                 Step 4
               </span>
               <span className='text-xl font-bold md:text-2xl'>
-                MEMBERS ARE COVERED
+                LOVED ONES ARE COVERED
               </span>
               <span className='mt-4 '>
                 As soon as the member received his or her matriculation number
