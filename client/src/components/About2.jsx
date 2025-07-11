@@ -1,8 +1,8 @@
 import {} from 'react-icons/fa6';
 
-import image from '../assets/images/saving.jpg';
-import peace from '../assets/images/peace.jpg';
-import family from '../assets/images/family.jpg';
+// import image from '../assets/images/saving.jpg';
+// import peace from '../assets/images/peace.jpg';
+// import family from '../assets/images/family.jpg';
 import ScrollToTop from 'react-scroll-to-top';
 // import { Seo } from './Seo';
 
@@ -22,7 +22,7 @@ export default function About2() {
         <div className='container mx-auto space-y-32'>
           <div className='flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row'>
             <img
-              src={peace}
+              src='https://res.cloudinary.com/dp8tkb7hq/image/upload/v1752211702/peace_j53got.jpg'
               alt=''
               className='h-80 dark:bg-gray-500 aspect-video  '
             />
@@ -39,7 +39,7 @@ export default function About2() {
           </div>
           <div className='flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row-reverse'>
             <img
-              src={family}
+              src='https://res.cloudinary.com/dp8tkb7hq/image/upload/v1752211702/family_bei9hm.jpg'
               alt=''
               className='  h-80 dark:bg-gray-500 aspect-video object-cover'
             />
@@ -53,7 +53,11 @@ export default function About2() {
             </div>
           </div>
           <div className='flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row'>
-            <img src={image} alt='' className='h-80  aspect-video' />
+            <img
+              src='https://res.cloudinary.com/dp8tkb7hq/image/upload/v1752212375/saving_ht0mzm.jpg'
+              alt=''
+              className='h-80  aspect-video'
+            />
             <div className='flex flex-col justify-center flex-1 p-6 bg-base-200'>
               <h3 className='text-3xl font-bold'>SAGICAM HELPS SAVE MONEY</h3>
               <p className='my-6 '>

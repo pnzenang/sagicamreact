@@ -1,9 +1,17 @@
-import hero1 from '../assets/images/worry.jpg';
-import hero2 from '../assets/images/prepared.jpg';
-import hero3 from '../assets/images/together.jpg';
-import hero4 from '../assets/images/victory.jpg';
+// import hero1 from '../assets/images/worry.jpg';
+// import hero2 from '../assets/images/prepared.jpg';
+// import hero3 from '../assets/images/together.jpg';
+// import hero4 from '../assets/images/victory.jpg';
 
-const carouselImages = [hero1, hero2, hero3, hero4];
+const carouselImages2 = [
+  'https://res.cloudinary.com/dp8tkb7hq/image/upload/v1752211702/worry_b7v7fg.jpg',
+  ' https://res.cloudinary.com/dp8tkb7hq/image/upload/v1752212375/prepared_dfti07.jpg',
+  'https://res.cloudinary.com/dp8tkb7hq/image/upload/v1752212376/together_rnuus1.jpg',
+
+  'https://res.cloudinary.com/dp8tkb7hq/image/upload/v1752211702/victory_iqimhu.jpg',
+];
+
+// const carouselImages = [hero1, hero2, hero3, hero4];
 
 const Hero2 = () => {
   return (
@@ -30,7 +38,7 @@ const Hero2 = () => {
         </p>
       </div>
       <div className='hidden h-[28rem] lg:carousel carousel-center p-4 space-x-4 bg-neutral rounded-box'>
-        {carouselImages.map((image) => {
+        {carouselImages2.map((image) => {
           return (
             <div key={image} className='carousel-item'>
               <img
