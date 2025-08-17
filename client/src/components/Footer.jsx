@@ -29,7 +29,8 @@ const Footer2 = () => {
                 <FaLocationDot className='w-8 h-8 text-primary' />
                 <div>
                   <h5 className=' text-md font-semibold '>
-                    23612 Public House Rd, Clarksburg MD 20871.
+                    9711 Washingtonian Blvd Suite 550 <br />
+                    Gaithersburg MD 20878
                   </h5>
                 </div>
               </div>

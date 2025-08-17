@@ -45,6 +45,10 @@ const Register = () => {
         <h4 className='text-center text-3xl font-bold mt-4'>
           Sponsor Registration
         </h4>
+        <p className='text-center text-xs '>
+          (The person who is sponsoring his or her loved ones living in
+          Cameroon)
+        </p>
         <div className='grid lg:grid-cols-2 gap-4 '>
           <FormInputs type='text' label='Sponsor first name' name='firstName' />
           <FormInputs
@@ -102,7 +106,7 @@ const Register = () => {
             <SubmitBtn text='register' />
           </div>
           <div className='mt-2 flex justify-items-end '>
-            <p className=' mt-4'>
+            <p className=' mt-2'>
               Already a Sponsor?
               <a
                 href='/login'

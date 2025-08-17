@@ -33,7 +33,7 @@ const Admin = () => {
   return (
     <div className='grid grid-cols-1 gap-6 lg:grid-cols-2 pt-6 '>
       <StatItem
-        title='active associations'
+        title='sponsors'
         count={users}
         icon={<FaUsersRectangle />}
         bcg='bg-indigo-200'
@@ -41,7 +41,7 @@ const Admin = () => {
         color='text-primary'
       />
       <StatItem
-        title='total membership'
+        title='total members'
         count={vestedMembers + pendingMembers}
         icon={<FaUsers />}
         bcg='bg-indigo-200'
