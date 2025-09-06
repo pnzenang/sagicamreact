@@ -11,7 +11,7 @@ export const sendResetPasswordEmail = async ({
 
   return sendEmail({
     to: email,
-    from: 'info@mysagi.org',
+    from: 'info@sagicam.org',
     subject: 'Reset Password',
     html: `<h3>Hello, ${name}</h3>${message}`,
   });
