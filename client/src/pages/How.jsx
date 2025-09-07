@@ -41,9 +41,9 @@ const Tabs = () => {
                 LOVED ONES ARE VESTED
               </span>
               <span className='mt-4 '>
-                After 90 days of waiting period the member becomes vested and
-                the sponsor makes sure his or her member&apos;s registration fee
-                is taken care of.
+                After a minimum of 90 days of waiting period the member becomes
+                vested and the sponsor makes sure his or her member&apos;s
+                registration fee is taken care of.
               </span>
             </div>
           </div>
