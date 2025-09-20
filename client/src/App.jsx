@@ -174,13 +174,14 @@ const router = createBrowserRouter([
     loader: dashboardLoader,
     children: [
       {
-        path: 'add-member',
+        index: true,
+        // path: 'add-member',
         element: <AddMembers />,
         errorElement: <ErrorElement />,
         action: addMemberAction,
       },
       {
-        index: true,
+        path: 'all-members',
         element: <AllMembers />,
         errorElement: <ErrorElement />,
         loader: allMembersLoader,

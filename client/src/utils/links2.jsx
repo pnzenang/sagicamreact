@@ -10,12 +10,12 @@ import { PiUsersFourLight } from 'react-icons/pi';
 const links2 = [
   {
     text: 'add loved ones',
-    path: 'add-member',
+    path: '.',
     icon: <TbUsersPlus />,
   },
   {
     text: 'all loved ones',
-    path: '.',
+    path: 'all-members',
     icon: <TbUsersGroup />,
   },
 
