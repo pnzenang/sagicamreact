@@ -52,19 +52,6 @@ const Hero2 = () => {
           })}
         </div>
       </div>
-      <div className='w-full '>
-        <iframe
-          width='100%'
-          height={500}
-          src='https://docs.google.com/spreadsheets/d/e/2PACX-1vRWJjwfoRmplUun4RhSsEUVYEIiAqs3GC9CEVM63-esQJfOy2Lmk_vgS4VhxC97JQ/pubhtml?gid=839653133&amp;single=true&amp;widget=true&amp;headers=false'
-        ></iframe>
-      </div>
-      <iframe
-        frameborder='0'
-        width='100%'
-        height='700'
-        src='https://www.jotform.com/build/252640740661151'
-      ></iframe>
     </div>
   );
 };
