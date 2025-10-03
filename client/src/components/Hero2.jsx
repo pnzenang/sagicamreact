@@ -15,41 +15,56 @@ const carouselImages2 = [
 
 const Hero2 = () => {
   return (
-    <div className=' grid lg:grid-cols-2 gap-10 items-center mt-20 mb-20 align-element bg-base-200'>
-      <div className='mt-10 '>
-        <p className='max-w-2xl text-2xl font-bold  sm:text-4xl tracking-wider '>
-          Register your loved ones living in CAMEROON with{' '}
-          <span className=' uppercase text-cyan-600 font-extrabold tracking-wide'>
-            sagiCAM
-          </span>
-          {', '}the SAGI organization set up for families living in Cameroon.
-        </p>
-        <p className='py-10  text-body-color hover:text-secondary leading-loose'>
-          By sponsoring your loved ones living in Cameroon in
-          <span className='font-semibold'> SAGICAM</span>, you make their
-          eventual passing a SAGI problem, the whole{' '}
-          <span className='font-semibold'> SAGICAM</span> community will come
-          together to support you in the trying time.
-          <br /> At<span className='font-semibold'> SAGICAM</span>, we mimic the
-          camerooninan solidarity, making one family&apos;s problem the problem
-          of the whole community. Making it a little easier for any of us, to
-          face up to the adversity of financially taking care of expenses
-          related to the funeral of a loved one.
-        </p>
+    <div className='align-element'>
+      <div className=' grid lg:grid-cols-2 gap-10 items-center mt-20 mb-20 align-element bg-base-200'>
+        <div className='mt-10 '>
+          <p className='max-w-2xl text-2xl font-bold  sm:text-4xl tracking-wider '>
+            Register your loved ones living in CAMEROON with{' '}
+            <span className=' uppercase text-cyan-600 font-extrabold tracking-wide'>
+              sagiCAM
+            </span>
+            {', '}the SAGI organization set up for families living in Cameroon.
+          </p>
+          <p className='py-10  text-body-color hover:text-secondary leading-loose'>
+            By sponsoring your loved ones living in Cameroon in
+            <span className='font-semibold'> SAGICAM</span>, you make their
+            eventual passing a SAGI problem, the whole{' '}
+            <span className='font-semibold'> SAGICAM</span> community will come
+            together to support you in the trying time.
+            <br /> At<span className='font-semibold'> SAGICAM</span>, we mimic
+            the camerooninan solidarity, making one family&apos;s problem the
+            problem of the whole community. Making it a little easier for any of
+            us, to face up to the adversity of financially taking care of
+            expenses related to the funeral of a loved one.
+          </p>
+        </div>
+        <div className='hidden h-[28rem] lg:carousel carousel-center p-4 space-x-4 bg-neutral rounded-box'>
+          {carouselImages2.map((image) => {
+            return (
+              <div key={image} className='carousel-item'>
+                <img
+                  src={image}
+                  alt=''
+                  className='rounded-box h-full w-80 object-cover '
+                />
+              </div>
+            );
+          })}
+        </div>
       </div>
-      <div className='hidden h-[28rem] lg:carousel carousel-center p-4 space-x-4 bg-neutral rounded-box'>
-        {carouselImages2.map((image) => {
-          return (
-            <div key={image} className='carousel-item'>
-              <img
-                src={image}
-                alt=''
-                className='rounded-box h-full w-80 object-cover'
-              />
-            </div>
-          );
-        })}
+      <div className='w-full '>
+        <iframe
+          width='100%'
+          height={500}
+          src='https://docs.google.com/spreadsheets/d/e/2PACX-1vRWJjwfoRmplUun4RhSsEUVYEIiAqs3GC9CEVM63-esQJfOy2Lmk_vgS4VhxC97JQ/pubhtml?gid=839653133&amp;single=true&amp;widget=true&amp;headers=false'
+        ></iframe>
       </div>
+      <iframe
+        frameborder='0'
+        width='100%'
+        height='700'
+        src='https://www.jotform.com/build/252640740661151'
+      ></iframe>
     </div>
   );
 };

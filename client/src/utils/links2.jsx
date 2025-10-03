@@ -2,12 +2,22 @@ import { TbUsersGroup } from 'react-icons/tb';
 import { TbUsersPlus } from 'react-icons/tb';
 import { RiUserSettingsLine } from 'react-icons/ri';
 import { MdOutlineAnnouncement } from 'react-icons/md';
-import { MdOutlineAdminPanelSettings } from 'react-icons/md';
+import {
+  MdOutlineAdminPanelSettings,
+  MdOutlineIntegrationInstructions,
+} from 'react-icons/md';
+import { FiUserCheck } from 'react-icons/fi';
+import { TbReportMoney } from 'react-icons/tb';
 // import { TfiStatsUp } from 'react-icons/tfi';
 import { PiUsersFourLight } from 'react-icons/pi';
 // import { SiGnuprivacyguard } from 'react-icons/si';
 
 const links2 = [
+  // {
+  //   text: 'navigation instructions',
+  //   path: 'navigation',
+  //   icon: <MdOutlineIntegrationInstructions />,
+  // },
   {
     text: 'add loved ones',
     path: '.',
@@ -20,10 +30,26 @@ const links2 = [
   },
 
   {
+    text: 'Vested Members ',
+    path: 'vested-members',
+    icon: <FiUserCheck />,
+  },
+  {
     text: 'sponsor profile',
     path: 'profile',
     icon: <RiUserSettingsLine />,
   },
+  {
+    text: 'contributions',
+    path: 'contributions',
+    icon: <TbReportMoney />,
+  },
+  {
+    text: 'Internal Rules',
+    path: 'internal-rules',
+    icon: <RiUserSettingsLine />,
+  },
+
   {
     text: 'death announcement',
     path: 'announcement',

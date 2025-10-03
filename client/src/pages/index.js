@@ -7,6 +7,10 @@ export { default as Home } from './Home';
 export { default as HomeLayout } from './HomeLayout';
 export { default as Landing } from './Landing';
 export { default as Login } from './Login';
+export { default as VestedMembers } from './VestedMembers';
+export { default as Navigation } from './Navigation';
+export { default as Contributions } from './Contributions';
+export { default as InternalRules } from './InternalRules';
 
 export { default as Team } from './Team';
 export { default as Register } from './Register';

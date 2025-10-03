@@ -12,17 +12,21 @@ import {
   Landing,
   Error,
   Login,
+  Navigation,
   Register,
   Contact,
+  Contributions,
   ResetPassword,
   ForgotPassword,
   DashboardLayout,
   AddMembers,
   AllMembers,
   Announcement,
+  VestedMembers,
   Stats,
   Profile,
   Admin,
+  InternalRules,
   EditMember,
   AdminAllMembers,
   // AdminAllDeceased,
@@ -53,8 +57,8 @@ import { loader as deleteMemberLoader } from './pages/DeleteMember';
 import { loader as adminLoader } from './pages/Admin';
 import { loader as statLoader } from './pages/Stats';
 import { action as profileAction } from './pages/Profile';
-import { loader as deathAnnouncementLoader } from './pages/DeathAnnouncement';
-import { action as deathAnnouncementAction } from './pages/DeathAnnouncement';
+// import { loader as deathAnnouncementLoader } from './pages/DeathAnnouncement';
+// import { action as deathAnnouncementAction } from './pages/DeathAnnouncement';
 import { loader as necrologyLoader } from './pages/Necrology';
 import { loader as singleNecrologyLoader } from './pages/SingleNecrology';
 import { action as forgotAction } from './pages/ForgotPassword';
@@ -194,7 +198,7 @@ const router = createBrowserRouter([
       },
       {
         path: 'announcement',
-        element: <Announcement />,
+        element: <DeathAnnouncement />,
         errorElement: <ErrorElement />,
         loader: announcementLoader,
       },
@@ -239,22 +243,30 @@ const router = createBrowserRouter([
       {
         path: 'death-announcement/:id',
         element: <DeathAnnouncement />,
-        action: deathAnnouncementAction,
-        loader: deathAnnouncementLoader,
+        errorElement: <ErrorElement />,
+        // action: deathAnnouncementAction,
+        // loader: deathAnnouncementLoader,
       },
-      // {
-      //   path: 'all-deceased-admin',
-      //   element: <AdminAllDeceased />,
-      //   errorElement: <ErrorElement />,
-      //   loader: adminAllDeceasedLoader,
-      // },
-      // {
-      //   path: 'admin-edit-deceased/:id',
-      //   element: <AdminEditDeceased />,
-      //   errorElement: <ErrorElement />,
-      //   action: adminEditDeceasedAction,
-      //   loader: adminEditDeceasedLoader,
-      // },
+      {
+        path: 'vested-members',
+        element: <VestedMembers />,
+        errorElement: <ErrorElement />,
+      },
+      {
+        path: 'navigation',
+        element: <Navigation />,
+        errorElement: <ErrorElement />,
+      },
+      {
+        path: 'internal-rules',
+        element: <InternalRules />,
+        errorElement: <ErrorElement />,
+      },
+      {
+        path: 'contributions',
+        element: <Contributions />,
+        errorElement: <ErrorElement />,
+      },
     ],
   },
 ]);

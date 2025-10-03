@@ -130,7 +130,7 @@ const MembersContainer = () => {
                             const m = time.diff(tod, 'days');
 
                             const matriculationSituation =
-                              memberStatus === 'pending' || m < 90
+                              memberStatus === 'pending' || m < 30
                                 ? 'pending'
                                 : memberMatriculation;
                             const date = day(createdAt).format('MMM Do, YYYY');

@@ -29,11 +29,11 @@ const Member = ({
   const tod = day(createdAt.toString());
   const m = time.diff(tod, 'days');
   const matriculationSituation =
-    memberStatus === 'pending' || m < 90 ? 'pending' : memberMatriculation;
+    memberStatus === 'pending' || m < 30 ? 'pending' : memberMatriculation;
 
-  memberStatus === 'vested' && delegateRecommendation === 'confirm' && m >= 90
+  memberStatus === 'vested' && delegateRecommendation === 'confirm' && m >= 30
     ? (borderColor = 'border-transparent')
-    : m >= 90 && delegateRecommendation === 'confirm'
+    : m >= 30 && delegateRecommendation === 'confirm'
     ? (borderColor = 'border-green-500')
     : delegateRecommendation === 'remove'
     ? (borderColor = 'border-red-600 ')
