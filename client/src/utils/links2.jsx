@@ -29,32 +29,32 @@ const links2 = [
     icon: <TbUsersGroup />,
   },
 
-  {
-    text: 'Vested Members ',
-    path: 'vested-members',
-    icon: <FiUserCheck />,
-  },
+  // {
+  //   text: 'Vested Members ',
+  //   path: 'vested-members',
+  //   icon: <FiUserCheck />,
+  // },
   {
     text: 'sponsor profile',
     path: 'profile',
     icon: <RiUserSettingsLine />,
   },
-  {
-    text: 'contributions',
-    path: 'contributions',
-    icon: <TbReportMoney />,
-  },
-  {
-    text: 'Internal Rules',
-    path: 'internal-rules',
-    icon: <RiUserSettingsLine />,
-  },
+  // {
+  //   text: 'contributions',
+  //   path: 'contributions',
+  //   icon: <TbReportMoney />,
+  // },
+  // {
+  //   text: 'Internal Rules',
+  //   path: 'internal-rules',
+  //   icon: <RiUserSettingsLine />,
+  // },
 
-  {
-    text: 'death announcement',
-    path: 'announcement',
-    icon: <MdOutlineAnnouncement />,
-  },
+  // {
+  //   text: 'death announcement',
+  //   path: 'announcement',
+  //   icon: <MdOutlineAnnouncement />,
+  // },
 
   // {
   //   text: 'stats',
