@@ -29,11 +29,11 @@ const links2 = [
     icon: <TbUsersGroup />,
   },
 
-  // {
-  //   text: 'Vested Members ',
-  //   path: 'vested-members',
-  //   icon: <FiUserCheck />,
-  // },
+  {
+    text: 'Vested Members ',
+    path: 'vested-members',
+    icon: <FiUserCheck />,
+  },
   {
     text: 'sponsor profile',
     path: 'profile',
