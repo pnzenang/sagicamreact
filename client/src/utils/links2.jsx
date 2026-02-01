@@ -30,7 +30,7 @@ const links2 = [
   },
 
   {
-    text: 'Vested Members ',
+    text: 'Updates  ',
     path: 'vested-members',
     icon: <FiUserCheck />,
   },
