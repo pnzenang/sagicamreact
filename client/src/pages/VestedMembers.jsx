@@ -1,13 +1,11 @@
-const VestedMembers = () => {
+const AddMembers = () => {
+  const { user } = useOutletContext();
   return (
-    <div className='h-full '>
-      <iframe
-        width='100%'
-        height='800'
-        className='mx-auto'
-        src='https://docs.google.com/spreadsheets/d/e/2PACX-1vQTa_678Qg3VLM61-M8a15J_OP70fu_fHsJdRicHfXfrNPkQtGc9j-UD8cDWZKNML7rNMpMyDM08pQy/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false'
-      ></iframe>
-    </div>
+    <section className='h-full w-full  place-items-center mt-20 '>
+      ‎Follow the SAGICAM-UPDATES channel on WhatsApp: https://whatsapp.com/channel/0029Vb79q1vDp2QA0Iq8M608
+      or 
+    </section>
   );
 };
-export default VestedMembers;
+
+export default AddMembers;
