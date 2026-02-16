@@ -41,7 +41,7 @@ const Tabs = () => {
                 LOVED ONES ARE VESTED
               </span>
               <span className='mt-4 '>
-                Up until April 30th, 2026, After a minimum of 30 days of waiting period the member becomes
+                Up until April 30th 2026, After a minimum of 30 days of waiting period the member becomes
                 vested and the sponsor makes sure his or her member&apos;s
                 registration fee is taken care of.
               </span>
